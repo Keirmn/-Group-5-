@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+body{
+    
+        background: rgba(0, 0, 0, 0.90);
+        background-image: url("images/Cafe.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        background-blend-mode: darken;
+}
+
+.container {
+    background-color: rgb(33, 31, 31, 0.85);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 60%;
+    height: 650px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 1px 1px 30px #00c0ff;
+    
+}
+  
+.logo{
+	display: flex;
+	margin: auto;
+	margin-top:150px;
+}
+
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 3px;
+}
+  
+label {
+    font-size: 25px;
+    font-family: Oswald;
+    text-shadow: 1px 1px 8px #5c5c64;
+    margin-top: 10px;
+    color: white;
+}
+  
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    width: 70%;
+    
+}
+
+.loginbutton, .registerbutton{
+    margin-top: 15px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid #e7e7e7;
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    font-size: 11px;
+    transition-duration: 0.2s;
+    
+}
+
+
+.loginbutton:hover, .registerbutton:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    box-shadow: 1px 1px 20px  #00c0ff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+
+h3, p{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 40px;
+}
